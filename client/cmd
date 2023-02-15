@@ -1,0 +1,8 @@
+Set up a Node.js server using Express framework and connect it to a MySQL database using Sequelize ORM.
+Create a React frontend for the login concept with a simple form that includes username and password fields.
+Implement server-side validation of the user credentials and authenticate them against the database using Sequelize.
+Add Google Sign-in functionality to the login page, using the Google API and a client ID.
+Configure the server to handle the Google Sign-in response and create a new user in the database if the user is new, or retrieve the existing user data if the user already exists.
+Implement user authentication and session management using JSON Web Tokens (JWT) for secure communication between the client and the server.
+
+npm install @react-oauth/google@latest
