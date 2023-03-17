@@ -56,6 +56,8 @@ app.get("/", (req, res) => {
 // Define the API routes
 app.post("/", (req, res) => {
   const { username, password } = req.body;
+  console.log(username);
+  console.log(password);
 
   // Check if the user exists in the database
   User.findOne({ where: { username } })
